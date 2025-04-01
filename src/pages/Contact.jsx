@@ -147,9 +147,9 @@ function Contact() {
     e.preventDefault();
     const fullName = `${name} ${lastName}`;
 
-    const serviceId = "service_nbwbk8b";
-    const templateId = "template_bs47rto";
-    const publicKey = "sSfxZUPCCyrg1OXKl";
+    const serviceId = "service_hew3o1o";
+    const templateId = "template_n9pbqla";
+    const publicKey = "L7Z8MbeOrAIGMiKnM";
 
     const templateParams = {
       from_name: fullName,
