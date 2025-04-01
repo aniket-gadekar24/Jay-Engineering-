@@ -213,7 +213,7 @@ function Contact() {
 
             {/* Submit Button */}
             <div className="flex justify-center">
-              <button type="submit" className="bg-blue-900 hover:bg-blue-800 text-white font-semibold py-2 px-6 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">Submit</button>
+              <button type="submit" className="bg-orange-500 text-white hover:bg-blue-800 font-semibold py-2 px-6 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">Submit</button>
             </div>
           </form>
         </div>

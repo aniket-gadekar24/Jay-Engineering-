@@ -41,6 +41,7 @@ function App() {
     <section id='contact'>
       <Contact/>
     </section>
+    <TopButton/>
     <section>
       <TopButton/>
     </section>
