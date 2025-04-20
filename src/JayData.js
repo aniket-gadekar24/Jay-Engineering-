@@ -3,73 +3,77 @@
 const clients = {
     data : [ 
         {
-            name :"Akar Auto Pvt Ltd" ,
+            // name :"Akar Auto Pvt Ltd" ,
             logo_path : "Akar-tools-logo.webp"
         },
         {
-            name : "Pavna Goyam Auto Pvt Ltd.",
-            logo_path :"none"
+            // name : "Pavna Goyam Auto Pvt Ltd.",
+            logo_path :"Pavna.jpg"
         },
         {
-            name : "Renuka Tools" ,
+            // name : "Renuka Tools" ,
             logo_path : "renuka_tools_logo.jpg"
         },
         {
-            name : "Som Auto Tech Pvt Ltd.",
+            // name : "SOM AUTO.",
             logo_path : "som-auto-logo.jpg"
         },
         {
-            name : "BG Fastning & Engineering Pvt Ltd.",
+            // name : "BG Fastning & Engineering Pvt Ltd.",
             logo_path : "BG-Fastning-logo.png"
         },
         {
-            name : "Tragen Technology Pvt ltd.",
+            // name : "Tragen Technology Pvt ltd.",
             logo_path : "Tragen-tech-logo.png"
         },
         {
-            name : "Nandamuri Technos",
+            // name : "Nandamuri Technos",
             logo_path : "nandamuri-logo.jpg"
         },
         {
-            name : "Yeshshree Press Comps Pvt Ltd. ",
+            // name : "Yeshshree Press Comps Pvt Ltd. ",
             logo_path : "yashshree-logo.jpg"
         },
+        // {
+        //     // name : "Aurangabad Electrical Group ( GDC PLANT )",
+        //     logo_path : "aurangabad-ele-logo.png"
+        // },
         {
-            name : "Aurangabad Electrical Group ( GDC PLANT )",
-            logo_path : "aurangabad-ele-logo.png"
+            // name : "BG LI-IN Electricals Pvt Ltd.",
+            logo_path : "BG-Li-in-logo.jpg"
         },
         {
-            name : "BG LI-IN Electricals Pvt Ltd.",
-            logo_path : "BG-Li-in-logo.jpg"
+            // name : "SIGMA TOOLINGS.",
+            logo_path : "Sigma tooling.png"
         },
 ]}
 
-const machineList = {
+const productList = {
     data :[
         {
-            machineName : "Surface Grinding m/C",
-            capacity : " Bmt [Faridabad.] -Bed Lenth 450x250 mm"
+            productName : "PLUG GAUGE",
+            productImg : "PLUG GAUGE.png"
         },
         {
-            machineName : "Milling m/c", 
-            capacity : "With Dro [ PACMIL] 4 KS.."
+            productName : "SNAP GAUGE",
+            productImg : " SNAP GAUGE.png"
         },
         {
-            machineName : "Cylendrical Grinding M/C ",
-            capacity : "[DEVCO] Center hight 175 mm."
+            productName : "TAPER PLUG GAUGE",
+            productImg : "TAPER PLUG GAUGE.png"
         },
         {
-            machineName : "Lathe M/C Leader ",
-            capacity : "Bed lenth 7.5 feet Center height 8 inch Spindle Id 3 inch "
+            productName : "THREAD PLUG GAUGE",
+            productImg : " THREAD PLUG GAUGE.png"
         },
         {
-            machineName : "Lathe M/C Leader ",
-            capacity : "Bed lenth 4.5 feet Center height 5 inch Spindle Id 38 mm. "
-        }
+            productName : "RING GAUGE",
+            productImg : "RING GAUGE.png"
+        },
     ]
 }
 
 
 export{ 
-    clients, machineList
+    clients, productList
 }

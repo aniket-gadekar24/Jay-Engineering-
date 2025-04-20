@@ -123,7 +123,7 @@ function Header() {
           <ul className="flex flex-col md:flex-row items-center md:space-x-6 p-6 md:p-0">
             <li><a className="text-lg font-semibold hover:text-orange-400 cursor-pointer" onClick={() => handleScroll("home")}>Home</a></li>
             <li><a className="text-lg font-semibold hover:text-orange-400 cursor-pointer" onClick={() => handleScroll("about")}>About Us</a></li>
-            <li><a className="text-lg font-semibold hover:text-orange-400 cursor-pointer" onClick={() => handleScroll("services")}>Our Services</a></li>
+            <li><a className="text-lg font-semibold hover:text-orange-400 cursor-pointer" onClick={() => handleScroll("services")}>Our Products</a></li>
             <li><a className="text-lg font-semibold hover:text-orange-400 cursor-pointer" onClick={() => handleScroll("client")}>Industries Served</a></li>
             <li><a className="text-lg font-semibold hover:text-orange-400 cursor-pointer" onClick={() => handleScroll("contact")}>Contact Us</a></li>
           </ul>
