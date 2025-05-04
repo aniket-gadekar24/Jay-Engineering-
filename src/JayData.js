@@ -46,6 +46,10 @@ const clients = {
             // name : "SIGMA TOOLINGS.",
             logo_path : "Sigma tooling.png"
         },
+        {
+            // name : "DHOOT AUTOMOTIVE",
+            logo_path : "Dhoot Transmission.jpg"
+        }
 ]}
 
 const productList = {
@@ -69,6 +73,10 @@ const productList = {
         {
             productName : "RING GAUGE",
             productImg : "RING GAUGE.png"
+        },
+        {
+            productName : "SLIP GAUGE",
+            productImg : "SLIP_GAUGE.png"
         },
     ]
 }

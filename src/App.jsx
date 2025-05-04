@@ -10,12 +10,13 @@ import Home from './pages/Home'
 import Product from './pages/Product'
 import Services from './pages/Services'
 import TopButton from './components/TopButton'
+import Features from './pages/Features'
 
 function App() {
   
 
   return (
-    <div className=''>
+    <div className="scroll-smooth">
       
       <div >
     <Header/>
@@ -31,6 +32,9 @@ function App() {
     </section>
     <section id='about'>
       <About/>
+    </section>
+    <section>
+      <Features/>
     </section>
     <section id='services'>
       <Services/>

@@ -1,49 +1,3 @@
-// import React, { useState } from 'react'
-// import { Link } from 'react-router-dom'
-
-// function Header() {
-//   const [menuOpen, setMenuOpen] = useState(false);
-
-  
-//   const handleScroll = (sectionId) => {
-//     const section = document.getElementById(sectionId);
-//     if (section) {
-//       section.scrollIntoView({ behavior: "smooth" });
-//     }
-//   };
-//   return (
-//     <div className='absolute z-10 flex w-[100%] items-center justify-between px-25  pt-5'>
-//       {/* absolute z-10 bg-white shadow-md  top-5 left-0 bottom-5 w-full z-50 flex justify-between */}
-        
-//         <div >
-//             <img src='/logo.png' className='w-28 h-auto object-contain'/>
-//         </div>
-
-//         {/* Menu Icon for Mobile */}
-//       <div className="md:hidden cursor-pointer" onClick={() => setMenuOpen(!menuOpen)}>
-//         <div className={`w-6 h-0.5 bg-black mb-1 transition-all ${menuOpen ? "rotate-45 translate-y-1.5" : ""}`}></div>
-//         <div className={`w-6 h-0.5 bg-black mb-1 transition-all ${menuOpen ? "opacity-0" : ""}`}></div>
-//         <div className={`w-6 h-0.5 bg-black transition-all ${menuOpen ? "-rotate-45 -translate-y-1.5" : ""}`}></div>
-//       </div>
-
-//       <nav className={`hidden md:flex space-x-4  ${menuOpen ? "block" : "hidden"}`}>
-//         <a  className='text-gray-700 hover:text-blue-700 text-xl font-semibold text-white ' onClick={() => handleScroll("home")}>Home</a>
-//         <a  className='text-gray-700 hover:text-blue-700 text-xl font-semibold text-white' onClick={()=>handleScroll("about")}>About US</a>
-//         <a  className='text-gray-700 hover:text-blue-700 text-xl font-semibold text-white' onClick={() => handleScroll("services")}>Our Services</a>
-//         {/* <Link className='text-gray-700 hover:text-blue-700 text-xl font-semibold text-white'>Product Gallery</Link> */}
-//         <a  className='text-gray-700 hover:text-blue-700 text-xl font-semibold text-white' onClick={() => handleScroll("client")}>Industries served</a>
-//         <a  className='text-gray-700 hover:text-blue-700 text-xl font-semibold text-white' onClick={() => handleScroll("contact")}>Contact US</a>
-
-//       </nav>
-//     </div>
-//   )
-// }
-
-// export default Header
-
-
-
-
 // import React, { useState } from "react";
 
 // function Header() {
@@ -88,6 +42,7 @@
 // }
 
 // export default Header;
+
 
 
 import React, { useState } from "react";

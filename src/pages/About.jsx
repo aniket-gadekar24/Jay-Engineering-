@@ -30,23 +30,12 @@
 
 
 import React from 'react';
-// import Marquee from "react-fast-marquee";
-// import { GiSkills, FaTools ,FaAward,BsTruck,IoCalendarNumber,FaThumbsUp} from "react-icons/gi";
-
 
 function About() {
-
-  // const features = [
-  //   {icon : <GiSkills /> , text : "Professional Technicians"},
-  //   {icon : <FaTools />   , text : "High-Quality Workmanship"},
-  //   {icon : <FaAward />   , text : "Award-Winning Service"},
-  //   {icon :  <BsTruck />  , text : "Emergency Service Available"},
-  //   {icon : <IoCalendarNumber />, text : "Fast, Same-Day Repairs"},
-  //   {icon : <FaThumbsUp />  , text : "Top-Notch Workmanship"}, 
-  // ]
-
+  
   return (
     <div className="px-6 md:px-12 lg:px-24 flex flex-col-reverse md:flex-row items-center gap-8">
+
       {/* Left Section - Text */}
       <div className="md:w-1/2 text-center md:text-left">
         <h2 className="text-3xl md:text-4xl text-center font-bold mb-4 text-orange-500">
@@ -70,25 +59,6 @@ function About() {
         />
       </div>
 
-
-       {/* sliding window  */}
-
-      <div>
-
-        {/* <Marquee>
-          <div>
-            {
-              features.map((item,index)=>(
-                <div>
-                  {item.icon}
-                  <p>{item.text}</p>
-                </div>
-              ))
-            }
-          </div>
-        </Marquee> */}
-      </div>
-       
     </div>
   );
 }

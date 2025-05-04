@@ -37,6 +37,12 @@
 import React from 'react';
 
 function Footer() {
+  const handleScroll = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="bg-gray-500 mt-8 px-6 md:px-12 lg:px-25 py-6">
       {/* Responsive flex layout */}
@@ -49,15 +55,29 @@ function Footer() {
             className="w-[180px] sm:w-[250px] md:w-[280px] lg:w-[300px] h-auto"
           />
           <h1 className="text-sm sm:text-base md:text-lg mt-2 leading-relaxed">
-            GUT NO. 67, PLOT NO.06, WADGAON <br />
-            MIDC–WALUJ, AURANGABAD, 431 136.
+            PLOT NO.06, GUT NO.67, WADGAON KOLHATI,<br/>
+            MIDC WALUJ, CHHATRAPATI SAMBHAJINAGAR <br/> 
+            431136, MAHARASHTRA, BHARAT.
           </h1>
+        </div>
+
+        <div>
+          <nav className={`md:static w-full  md:w-auto items-center md:bg-transparent transition-all duration-300 ease-in-out`}>
+            <ul className="items-center md:space-x-6 p-6 md:p-0">
+              <li><a className="text-lg  hover:text-orange-400 cursor-pointer" onClick={() => handleScroll("home")}>Home</a></li>
+              <li><a className="text-lg  hover:text-orange-400 cursor-pointer" onClick={() => handleScroll("about")}>About Us</a></li>
+              <li><a className="text-lg  hover:text-orange-400 cursor-pointer" onClick={() => handleScroll("services")}>Our Products</a></li>
+              <li><a className="text-lg  hover:text-orange-400 cursor-pointer" onClick={() => handleScroll("client")}>Industries Served</a></li>
+              <li><a className="text-lg  hover:text-orange-400 cursor-pointer" onClick={() => handleScroll("contact")}>Contact Us</a></li>
+            </ul>
+          </nav>
         </div>
 
         {/* Contact Information */}
         <div className="flex flex-col items-center md:items-start">
           <h1 className="text-lg font-semibold mb-2">Contact Us</h1>
           <p className="text-base md:text-lg leading-relaxed">
+            Swapnil Gore :<br/>
             8208426361 <br /> 9607633709
           </p>
           <p className="text-base md:text-lg leading-relaxed mt-2">
