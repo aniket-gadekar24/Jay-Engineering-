@@ -63,7 +63,7 @@ function Header() {
       <div className="container mx-auto flex justify-between items-center px-6 md:px-20 py-4">
         {/* Logo */}
         <div>
-          <img src="/logo.png" className="w-28 h-auto object-contain" alt="Logo" />
+          <img src="/Jay_updated_logo.png" className="w-28 h-auto object-contain" alt="Logo" />
         </div>
 
         {/* Mobile Menu Button */}

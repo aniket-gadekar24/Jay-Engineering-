@@ -50,7 +50,7 @@ function Footer() {
         {/* Logo & Address */}
         <div className="flex flex-col items-center md:items-start">
           <img 
-            src="/logo.png" 
+            src="/Jay_updated_logo.png" 
             alt="Logo" 
             className="w-[180px] sm:w-[250px] md:w-[280px] lg:w-[300px] h-auto"
           />
